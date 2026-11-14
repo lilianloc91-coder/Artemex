@@ -1,0 +1,27 @@
+- [x] Show the inclusive 5% certificate commission, 95% artisan amount and no shipping in purchase breakdowns; desktop/mobile popover and public verifier checked, eleven tests passed. No charge attempted or payment-service logic changed.
+- [x] Update Tecuani reference price to MXN 450 and author to Angel Cordero Sosa, retain its breakdown, remove homepage scan CTAs while preserving top navigation, and replace Acatlán's cover with generated region-inspired imagery; public microsite, price popover, verifier, mobile overflow and fourteen tests verified.
+- [x] Adapt ArteMex's 217-municipality Puebla map with local Leaflet rendering, preserve national map and all microsites; Acatlán polygon navigation, TK-0512, mobile filtering and six tests verified. Boundary derivative license remains unconfirmed as disclosed in the page and source notes.
+- [x] Replace the React QR adapter with a hook-free SVG renderer; homepage-to-passport navigation has no runtime errors, QR decoding and six tests passed.
+- [x] Move passport scanning into the top desktop/mobile navigation; five public screens verified at 360, 390, 768, 1024 and 1280px without overflow or runtime errors, scanner navigation and twelve tests passed. Protected content requires the project's current platform sign-in (managed Cloud session alone does not unlock it).
+- [x] Replace nine blue product backgrounds with light pearl gray and matching photo frames; original Tecuani preserved, desktop/mobile detail and six tests verified.
+- [x] Show complete piece-specific price breakdown beside prices and the existing pey payment control without clipping in craft cards and detail modals; popovers and payment dialog opening verified, six tests passed (no charge attempted).
+- [x] Replace the tiny Cuetzalan cover with high-resolution illustrative workshop artwork, lighten regional overlays, and add softly blurred illustrative artisan imagery behind modal and verifier histories; desktop render and six tests passed.
+- [x] Match photo-frame backgrounds to the craft photos; visually verified the homepage at the user's viewport without blank side bands.
+- [x] Harmonize nine craft-photo backgrounds, retain original Tecuani, and avoid cropping the main craft in cards and curatorial details.
+- [ ] Recover true fine detail for the three Cuetzalan product photos; blocked on higher-resolution originals from the user (current sources are 190×175).
+- [x] Add scannable piece-specific Stellar passport QR codes to cards and detail views; photographed QR decoded, public record navigation and mobile layout verified, six tests passed.
+- [x] Remove La Galería from desktop and mobile navigation; browser checks passed.
+- [x] Harden Maps initialization against invalid/detached containers and partial API readiness; show filtered regional links on load/auth/runtime failure. Build and ten tests passed; fallback filtering, microsite navigation and mobile empty state verified.
+- [x] Add the public Regiones Google map and craft/community/technique filters for the eight catalog communities; filter and empty states verified.
+- [x] Skip Google Maps on unauthorized domains (e.g. Vercel) and show regions with their works instead.
+- [x] Connect the user's own Google Maps browser key and allow the user-authorized tlamatik.vercel.app host, preserving the regional fallback.
+- [ ] Verify Google Maps rendering and marker navigation on the redeployed Vercel origin; Maps-dependent sandbox checks are unsupported and Vercel must receive the new public browser-key environment value before redeployment.
+- [x] Open eight regional microsites with explicit work membership; Cuetzalan navigation, three works and mobile layout verified.
+- [x] Restore the visible Panel del Promotor navigation and restyle all six existing menu options; verified through the app's current sign-in form.
+- [x] Require Google authentication for Panel and Registro de Obras; preserve public pages.
+- [x] Implement persistent owner-only promoter profile and private photo storage with saved-data restoration.
+- [x] Verify signed-out restrictions and public pages on desktop/mobile; access tests pass.
+- [ ] Verify profile save/readback with a real account. Sign-out and private-page access verified; profile write verification remains pending from the prior task.
+- [x] Add Spanish, English and Simplified Chinese across navigation, pages, forms, craft details and notifications; preserve proper names and user input.
+- [x] Persist language preference and verify switching, reloads, filters and CoDi on desktop/mobile.
+- [x] Add Banco, Cuenta and CLABE interbancaria to artisan registration; store only salted hashes in the local mock catalog and verify the list reveals no clear values.- [x] Landing adaptada al estilo ArteMex con imágenes de alta calidad y paleta Tlamatik
